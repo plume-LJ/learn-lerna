@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/plume-LJ/learn-lerna/compare/te@1.1.0...te@1.1.1) (2024-01-05)
+
+
+### Bug Fixes
+
+* 3 ([0eed86d](https://github.com/plume-LJ/learn-lerna/commit/0eed86d82cfaa8aac520e12dfac3d36a63b7eaed))
+
+
+
+
+
 # [1.1.0](https://github.com/plume-LJ/learn-lerna/compare/te@1.0.0...te@1.1.0) (2024-01-05)
 
 
