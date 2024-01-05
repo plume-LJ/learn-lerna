@@ -1,0 +1,29 @@
+{
+  "name": "t3",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "plume <jmyumao@126.com> (https://github.com/plume-LJ)",
+  "homepage": "https://github.com/plume-LJ/learn-lerna#readme",
+  "license": "MIT",
+  "main": "lib/t3.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plume-LJ/learn-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/t3.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/plume-LJ/learn-lerna/issues"
+  }
+}
