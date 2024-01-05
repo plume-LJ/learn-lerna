@@ -1,0 +1,28 @@
+// .babelrc
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  // 为每个项目进行个性化配置
+  "overrides": [
+    {
+      "test": ["packages/ui"],
+      "plugins": [
+        ["import", {
+          "libraryName": "antd",
+        	"libraryDirectory": "es",
+        	"style": "css"
+        }]
+      ]
+    },
+    {
+      "test": ["packages/utils"],
+      "plugins": [
+        ["module-resolver", {
+        	"alias": { "~": "./src/scripts" }
+      	}]
+      ]
+    }
+  ]
+}
