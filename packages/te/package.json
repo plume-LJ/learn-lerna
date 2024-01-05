@@ -1,6 +1,6 @@
 {
   "name": "te",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
-    "t2": "^0.1.1"
+    "t2": "^0.2.0"
   }
 }
